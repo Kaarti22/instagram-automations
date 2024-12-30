@@ -15,7 +15,7 @@ import UpgradeCard from "../sidebar/upgrade";
 import CreateAutomation from "../create-automation";
 import Search from "./search";
 import Notifications from "./notifications";
-import MainBreadCrumb from "@/components/global/main-bread-crumb";
+import MainBreadCrumb from "@/components/global/bread-crumbs/main-bread-crumb";
 
 interface InfobarProps {
   slug: string;
