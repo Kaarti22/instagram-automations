@@ -14,7 +14,6 @@ const AutomationList = () => {
   const { data } = useQueryAutomations();
 
   const { latestVariable } = useMutationDataState(["create-automation"]);
-  console.log(latestVariable);
 
   const { pathname } = usePaths();
 
