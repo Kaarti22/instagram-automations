@@ -5,6 +5,8 @@ interface TriggerProps {
 }
 
 const Trigger: React.FC<TriggerProps> = ({ id }) => {
+  
+
   return <div>Trigger</div>;
 };
 
